@@ -1,0 +1,40 @@
+#img-div {
+  height: 280px;
+  width: 330px;
+  border-radius: 7px;
+}
+
+#map-div {
+  display: flex;
+  gap: 7px;
+  flex-direction: column;
+}
+
+#img-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+#like-div {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.indi-like-items {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-head-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}

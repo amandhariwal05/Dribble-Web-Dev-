@@ -1,0 +1,56 @@
+#main-search-div {
+  background-color: #f3f3f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin: auto auto;
+  max-width: 710px;
+  padding: 8px 15px;
+  border-radius: 99999px;
+  border: 1.5px solid #e7e7e9;
+  height: 55px;
+}
+
+#inp-field {
+  all: unset;
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+  text-decoration: none;
+  width: 500px;
+  border: none;
+  background-color: #f3f3f6;
+}
+
+#search-box-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+  background-color: #ea4c89;
+}
+
+#search-box-div:hover {
+  background-color: #ec5e95;
+}
+
+button {
+  all: unset;
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  padding-left: 45px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+button:hover {
+  color: #3d3d4e;
+}

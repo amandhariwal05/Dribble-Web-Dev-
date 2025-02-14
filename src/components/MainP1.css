@@ -1,0 +1,53 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  max-width: 1170px;
+  margin: auto auto;
+  gap: 2rem;
+  background-color: #ffffff;
+}
+
+#multi-item-div {
+  display: flex;
+  gap: 1.72rem;
+}
+
+.nav-item {
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+  text-decoration: none;
+  color: #060318;
+  padding: 10px 15px;
+  transition: color 0.3s;
+}
+
+.nav-item:hover {
+  color: #4d4d59;
+}
+
+#popular-button {
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration: none;
+  color: #060318;
+  border-radius: 7px;
+  border: 1.5px solid #e7e7e9;
+  padding: 4px 14px;
+}
+
+.filter-btn {
+  border-radius: 99999px;
+  border: 1.5px solid #e7e7e9;
+  padding: 4px 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

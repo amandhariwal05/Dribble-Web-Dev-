@@ -1,0 +1,14 @@
+#sec-head {
+  text-align: center;
+  margin: auto auto 40px auto;
+  padding: 10px;
+  max-width: 580px;
+  max-height: 52px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
