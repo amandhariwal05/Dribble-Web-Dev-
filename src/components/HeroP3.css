@@ -43,7 +43,6 @@ button {
   all: unset;
   font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
   cursor: pointer;
-  padding-left: 45px;
   font-size: 14px;
   font-weight: 600;
   line-height: 30px;
@@ -53,4 +52,20 @@ button {
 
 button:hover {
   color: #3d3d4e;
+}
+
+#shots-div {
+  width: 60px;
+}
+
+@media (max-width:800px){
+  #main-search-div {
+    width: 400px;
+  }
+  #inp-field {
+    width: 240px;
+  }
+  #search-box-div {
+    scale: 0.8;
+  }
 }

@@ -9,7 +9,7 @@ const HeroP3 = () => {
       <div>
         <input id="inp-field" type="text" placeholder="What are you looking for?"/>
       </div>
-      <div>
+      <div id="shots-div">
         <button href="">
           Shots
           <RiArrowDropDownLine className="dropdown-btn" />
