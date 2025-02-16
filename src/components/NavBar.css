@@ -58,6 +58,7 @@
 
 #right-nav-cont {
   height: 4.7rem;
+  display: none;
   justify-content: center;
   align-items: center;
   padding-right: 2.5rem;
@@ -96,10 +97,6 @@ a:hover {
   scale: 1.8;
 }
 
-#signup-cont {
-  display: none;
-}
-
 @media (max-width: 56.25rem) {
   #list-show-button {
     display: flex;
@@ -109,7 +106,7 @@ a:hover {
 }
 
 @media (min-width: 56.25rem) {
-  #signup-cont {
+  #right-nav-cont {
     display: flex;
   }
   #left-links-cont {
