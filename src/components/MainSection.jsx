@@ -14,6 +14,12 @@ const MainSection = () => {
     "/7.webp",
     "/8.webp",
     "/9.webp",
+    "/10.webp",
+    "/11.webp",
+    "/12.webp",
+    "/13.webp",
+    "/14.webp",
+    "/15.webp",
   ];
 
   const postname = [
@@ -26,8 +32,18 @@ const MainSection = () => {
     "Ethereum",
     "Tubik Arts",
     "Lain",
+    "Dribbble",
+    "Behance",
+    "Figma",
+    "Sketch",
+    "Adobe XD",
+    "Webflow",
   ];
-  const likescount = [322, 323, 324, 325, 326, 327, 328, 329, 330];
+
+  const likescount = [
+    322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336,
+  ];
+
   const heartcount = [
     "1.2K",
     "1.3K",
@@ -38,6 +54,12 @@ const MainSection = () => {
     "1.8K",
     "1.9K",
     "2.0K",
+    "2.1K",
+    "2.2K",
+    "2.3K",
+    "2.4K",
+    "2.5K",
+    "2.6K",
   ];
 
   return (

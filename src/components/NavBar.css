@@ -4,9 +4,17 @@
   display: flex;
   justify-content: space-between;
   background-color: #fff;
+  transition: height 0.3s ease-in-out;
 }
 
-#left-nav-cont, 
+#left-nav-cont {
+  margin-left: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+}
+
 #right-nav-cont {
   display: flex;
   gap: 0.7rem;
@@ -16,10 +24,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  scale: 1.65;
-  padding: 1.5rem 0 0 2.2rem;
-  height: 2.75rem;
-  width: 5.5rem;
+  margin: 8px 0px 0px 17px;
+  height: 3.7rem;
+  width: 5.9em;
 }
 
 #drib-img {
@@ -28,12 +35,21 @@
   object-fit: cover;
 }
 
-#left-links-cont {
+#left-links-cont-mob {
   display: flex;
+  flex-direction: column;
   height: 4.3rem;
-  padding: 1.5rem 0 0 3.1rem;
-  margin-left: 1.2rem;
+  padding: 1.5rem 0 0 0;
   gap: 2.2rem;
+  margin-left: 50px;
+}
+
+#left-links-cont {
+  display: none;
+  height: 4.3rem;
+  padding: 1.5rem 0 0 0;
+  gap: 2.2rem;
+  margin-left: 50px;
 }
 
 .dropdown-btn {
@@ -68,4 +84,39 @@ a {
 
 a:hover {
   color: #3b3b4f;
+}
+
+.ham-nav {
+  width: 180px;
+  height: 280px;
+}
+
+#list-show-button {
+  display: none;
+  padding: 3px 0px 0px 3px;
+  scale: 1.8;
+}
+
+#signup-cont {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  #list-show-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 900px) {
+  #signup-cont {
+    display: flex;
+  }
+  #left-links-cont {
+    display: flex;
+  }
+  #left-links-cont-mob {
+    display: none;
+  }
 }
