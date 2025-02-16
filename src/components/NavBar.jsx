@@ -11,7 +11,7 @@ const NavBar = () => {
   const handlelistclick = (event) => {
     event.stopPropagation();
     setListState((prevState) => !prevState);
-    setNavHeight(liststate ? "5.75rem" : "280px");
+    setNavHeight(liststate ? "5.75rem" : "17.5rem");
   };
 
   return (
