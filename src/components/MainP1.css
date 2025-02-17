@@ -51,3 +51,9 @@
   align-items: center;
   gap: 5px;
 }
+
+@media (max-width:900px) {
+  #multi-item-div {
+    display: none !important; 
+  }
+}

@@ -20,6 +20,9 @@ const MainSection = () => {
     "/13.webp",
     "/14.webp",
     "/15.webp",
+    "/16.webp",
+    "/17.webp",
+    "/18.webp",
   ];
 
   const postname = [
@@ -38,10 +41,14 @@ const MainSection = () => {
     "Sketch",
     "Adobe XD",
     "Webflow",
+    "Creative Studio",
+    "Design Hub",
+    "Pixel Perfect",
   ];
 
   const likescount = [
     322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336,
+    337, 338, 339,
   ];
 
   const heartcount = [
@@ -60,6 +67,9 @@ const MainSection = () => {
     "2.4K",
     "2.5K",
     "2.6K",
+    "2.7K",
+    "2.8K",
+    "2.9K",
   ];
 
   return (

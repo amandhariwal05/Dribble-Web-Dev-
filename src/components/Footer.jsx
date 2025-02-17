@@ -7,12 +7,12 @@ const Footer = () => {
     <>
       <div id="sup-div">
         <div id="main-footer-div">
-          <div id="drib-img-cont">
+          <div id="drib-img-cont-footer">
             <a href="">
               <img id="drib-img" src={Dribble} alt="" />
             </a>
           </div>
-          <div id="multi-item-div">
+          <div id="multi-item-div-footer">
             <div className="nav-item">For designers</div>
             <div className="nav-item">Hire talent</div>
             <div className="nav-item">Inspiration</div>
